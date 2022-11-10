@@ -13,45 +13,37 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          KJeM Store Assets
         </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <Image src="/images/Screenshot 2022-09-12 at 18.51.16.png" alt="kjem01" width={250} height={400}/>
+            <p>IAmGroot T-shirt</p>
+            <p>Price: 7.00 USD</p>
+            <p>Available in different colors and sizes</p>
           </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="https://nextjs.org/docs" className={styles.card}>
+          <Image src="/images/Screenshot 2022-09-15 at 00.46.45.png" alt="kjem02" width={250} height={400}/>
+          <p>MIH T-shirt</p>
+          <p>Price: 7.00 USD</p>
+          <p>Aailable in different colors and sizes</p>
           </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          </div>
+          <div className={styles.grid}>
+          <a href="https://nextjs.org/docs" className={styles.card}>
+            <Image src="/images/Screenshot 2022-09-15 at 00.47.23.png" alt="kjem03" width={250} height={400}/>
+            <p>MIH T-shirt in black</p>
+          <p>Price: 7.00 USD</p>
+          <p>Aailable in different colors and sizes</p>
           </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+          <a href="https://nextjs.org/docs" className={styles.card}>
+          <Image src="/images/Screenshot 2022-09-15 at 00.48.22.png" alt="kjem04" width={250} height={400}/>
+          <p>JGS T-shirt</p>
+          <p>Price: 7.00 USD</p>
+          <p>Aailable in different colors and sizes</p>
           </a>
-        </div>
+          </div>
       </main>
 
       <footer className={styles.footer}>
