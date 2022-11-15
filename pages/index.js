@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { checkout } from '../../checkout'
+import { checkout } from '../checkout'
 
 export default function Home() {
   return (
@@ -27,7 +27,7 @@ export default function Home() {
               checkout({
                 lineItems:[
                   {
-                    price: "price_1M2WvKHUF3QNRiEQC00GdczI",
+                    price: "price_1M2WrgHUF3QNRiEQcFoZpYwy",
                     quantity:1
                   }
                 ]
